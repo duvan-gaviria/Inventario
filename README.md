@@ -1,2 +1,2 @@
-# Inventario
+# inventario
 inventario
