@@ -1,0 +1,86 @@
+
+    @page  {
+        size: auto;
+        /* auto es el valor inicial */
+        margin: 0mm;
+        /* afecta el margen en la configuración de impresión */
+    }
+
+    /*  @font-face {
+font-family: cour;
+src: url(https://tendero.moviired.co/fonts/cour.ttf);
+}*/
+    body {
+        font-family: cour, Arial, sans-serif;
+        text-align: center;
+        
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 5px;
+    }
+
+    #container {
+        width: 240px;
+    }
+
+    #id_transaccion {
+        margin-top: 12px;
+    }
+
+    #resultado {
+        margin-top: 25px;
+    }
+
+    #operador {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    #autorizacion {
+        margin-bottom: 25px;
+    }
+
+    #tipo {
+        margin-bottom: 25px;
+    }
+
+    #contacto {
+        padding-bottom: 30px;
+    }
+
+    .logo {
+        margin-top: 40px;
+        margin-bottom: 30px;
+        border-color: red;
+    }
+
+    .btn_finish {
+        border-radius: 25px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 15px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: 0.4px;
+        text-align: center;
+        background-color: #1bac33;
+        padding-bottom: 15px;
+        margin-left: 8px;
+    }
+
+    .div_boton_finish {
+        cursor: pointer;
+        padding-top: 35px;
+    }
+
+    .section {
+        margin-top: 40px;
+    }

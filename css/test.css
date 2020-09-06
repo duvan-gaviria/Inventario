@@ -1,0 +1,45 @@
+.onofftypesearch {
+    position: relative; width: 114px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+.onofftypesearch-checkbox {
+    display: none;
+}
+.onofftypesearch-label {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+.onofftypesearch-inner {
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+.onofftypesearch-inner:before, .onofftypesearch-inner:after {
+    display: block; float: left; width: 50%; height: 33px; padding: 0; line-height: 33px;
+    font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+.onofftypesearch-inner:before {
+    content: "CEDULA";
+    padding-left: 10px;
+    background-color: #34A7C1; color: #FFFFFF;
+}
+.onofftypesearch-inner:after {
+    content: "NOMBRE";
+    padding-right: 10px;
+    background-color: #EEEEEE; color: #999999;
+    text-align: right;
+}
+.onofftypesearch-switch {
+    display: block; width: 18px; margin: 7.5px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 77px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+.onofftypesearch-checkbox:checked + .onofftypesearch-label .onofftypesearch-inner {
+    margin-left: 0;
+}
+.onofftypesearch-checkbox:checked + .onofftypesearch-label .onofftypesearch-switch {
+    right: 0px; 
+}

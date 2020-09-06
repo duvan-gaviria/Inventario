@@ -1,0 +1,58 @@
+@import "https://fonts.googleapis.com/css?family=Lato:400,700";
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 1rem;
+}
+
+#search-wrapper {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-flex-flow: row-reverse nowrap;
+      -ms-flex-flow: row-reverse nowrap;
+          flex-flow: row-reverse nowrap;
+  width: auto;
+}
+#search-wrapper #search {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-left: 0;
+  border-radius: 0 1.2rem 1.2rem 0;
+  color: #444;
+  padding: .6rem .5rem;
+  font-family: 'Lato';
+  font-size: 15px;
+  font-weight: lighter;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+  width: auto;
+}
+#search-wrapper #search + i {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 1.2rem 0 0 1.2rem;
+  border-right: 0;
+  color: #777;
+  padding: .67rem .65rem;
+  -webkit-transition: border-color .2s ease;
+  transition: border-color .2s ease;
+}
+#search-wrapper #search:focus {
+  border-color: #999;
+  outline: none;
+}
+#search-wrapper #search:focus + i {
+  border-color: #999;
+}
